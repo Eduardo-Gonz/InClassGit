@@ -3,3 +3,5 @@ def calc(a, b):
     print(sum)
     difference = a - b
     print(difference)
+    multiply = a * b
+    print(multiply)
