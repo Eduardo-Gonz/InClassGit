@@ -1,6 +1,8 @@
 import random
 def generate_password(length):
-    pass
+    password = []
+
+
 
 def prompt_length():
     random.seed()
