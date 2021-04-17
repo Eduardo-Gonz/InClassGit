@@ -1,10 +1,11 @@
 import random
 def generate_password(length):
-    password = []
+    passwordChars = []
     for i in range(length):
         randChar = chr(random.randint(33, 122))
-        password.append(randChar)
+        passwordChars.append(randChar)
 
+    password = ''.join(passwordChars)
     print(password)
 
 def prompt_length():
