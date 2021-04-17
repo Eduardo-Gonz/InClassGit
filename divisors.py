@@ -1,2 +1,6 @@
 def find_divisors(num):
-    pass
+    divisors = []
+
+
+
+find_divisors(5)
