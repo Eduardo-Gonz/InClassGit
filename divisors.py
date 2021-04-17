@@ -5,4 +5,9 @@ def find_divisors(num):
             divisors.append(i)
     
     print(divisors)
-find_divisors(5)
+
+def input_number():
+    num = input("Enter number you want to find divisors of: ")
+    find_divisors(num)
+
+input_number()
